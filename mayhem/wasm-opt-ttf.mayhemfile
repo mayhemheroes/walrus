@@ -1,0 +1,7 @@
+project: walrus
+target: wasm-opt-ttf
+
+cmds:
+  - cmd: /wasm-opt-ttf
+  - cmd: /wasm-opt-ttf_no_inst @@
+    libfuzzer: false

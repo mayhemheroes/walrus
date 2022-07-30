@@ -1,0 +1,7 @@
+project: walrus
+target: watgen
+
+cmds:
+  - cmd: /watgen
+  - cmd: /watgen_no_inst @@
+    libfuzzer: false
