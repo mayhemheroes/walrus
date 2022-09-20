@@ -1,0 +1,7 @@
+project: walrus
+target: raw
+
+cmds:
+  - cmd: /raw
+  - cmd: /raw_no_inst @@
+    libfuzzer: false
